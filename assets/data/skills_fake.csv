@@ -1,0 +1,104 @@
+Role,Skill,Level,UserID
+0,National security,3,3
+0,Innovation,3,3
+0,Intelligence,2,3
+0,Crisis planning,3,3
+0,Military engineering,3,3
+0,Policy,3,3
+0,Transformation,3,3
+0,Programme management,3,3
+0,Operations,3,3
+335,Survey design,2,4
+335,Econometrics,2,4
+335,Delivery,3,4
+335,Behavioural insights,3,4
+335,Excel,2,4
+335,Economics,2,4
+335,"Programme targets, metrics and KPIs",3,4
+321,Physics,3,5
+321,Mathematics,2,5
+321,Scientific Research,3,5
+321,Issues trees,3,5
+321,Semi-structured Interviews,2,5
+321,Project Management,2,5
+321,Academic engagement,3,5
+321,Frontline engagement,3,5
+321,Leadership theory,2,5
+321,Running workshops,3,5
+321,Running DU training,3,5
+321,Quality improvement,3,5
+252,Statistics ,3,6
+252,Machine Learning,3,6
+252,Big Data,2,6
+252,Data Visualization,3,6
+252,Data Architecture,2,6
+252,Mathematics,2,6
+252,Programming,3,6
+252,Cloud Computing,3,6
+252,Scientific Research,3,6
+252,Clinical Trials,3,6
+252,Physics,3,6
+252,Quantitive Finance,3,6
+252,Risk Management,3,6
+252,Public Speaking,2,6
+252,Software Development,2,6
+252,Sports Science,1,6
+252,Project Management,2,6
+252,Intelligence Analysis,2,6
+252,R,2,6
+252,Python,2,6
+252,PHP,3,6
+252,Javascript,2,6
+256,Statistics ,3,7
+256,Machine Learning,3,7
+256,Programming,3,7
+256,Python,3,7
+256,R,2,7
+256,Data Visualization,3,7
+256,Evaluation,2,7
+256,Delivery,2,7
+256,Project Management,2,7
+256,Innovation,2,7
+256,Intelligence Analysis,2,7
+256,Behavioural Science,1,7
+256,Coaching,2,7
+256,Diversity & Inclusion,3,7
+256,Public Speaking,2,7
+266,Python ,2 ,8
+266,Statistics ,3 ,8
+266,R ,2 ,8
+266,Econometrics  ,3 ,8
+266,Economics ,3 ,8
+266,Causal Inference ,3 ,8
+266,Programme Evaluation ,2 ,8
+259,Data Science,3,9
+259,Programming,3,9
+259,Data visualisation,2,9
+259,Behavioural Science,2,9
+259,Public Speaking,3,9
+259,Team Management,2,9
+259,Project Management,1,9
+259,R,3,9
+259,Python,2,9
+300,Public Speaking,3,10
+300,Problem Solving,3,10
+300,Strategic Thinking,3,10
+300,Delivery,3,10
+300,Influencing,3,10
+300,German,1,10
+300,Idea Visualisation,2,10
+300,Statistics ,2,10
+300,Project Management,2,10
+300,Scientific Research,2,10
+300,Writing,2,10
+300,Mentoring,3,10
+300,Coaching,2,10
+300,Engagement,3,10
+300,Organisation Design,3,10
+300,Process Redesign,2,10
+300,Analysis,2,10
+300,Managing Complexity,3,10
+300,Managing Uncertainty,3,10
+300,Biomedical Science,1,10
+300,Operational Improvement,2,10
+300,Organisation Effectiveness,2,10

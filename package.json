@@ -1,0 +1,24 @@
+{
+  "name": "d3_organogram",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/no10ds/d3_organogram.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/no10ds/d3_organogram/issues"
+  },
+  "homepage": "https://github.com/no10ds/d3_organogram#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

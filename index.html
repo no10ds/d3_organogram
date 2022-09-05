@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="image/x-icon"
+    href="https://production-assets.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" />
+  <link rel="mask-icon" type=""
+    href="https://production-assets.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg"
+    color="#111" />
+  <title>Organogram</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css'>
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto'>
+  <link rel='stylesheet prefetch' href='assets/styles/orgstyle.css'>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
+
+
+  <style>
+
+  </style>
+
+
+</head>
+
+<body translate="no" zoom="no" style="position: relative;">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+  <div class="button-container" translate="no" zoom="no">
+    <button class="btn-action btn-fullscreen" onclick="toggleFullScreen()">Full Screen (Recommended) <span
+        class='icon' /> <i class="fa fa-expand" aria-hidden="true"></i></span></button>
+    <button class="btn-action btn-expand" onclick="masterExpand()">Expand All <span class='icon' /> <i
+        class="fa fa-maximize" aria-hidden="true"></i></span></button>
+    <button class="btn-action btn-collapse" onclick="masterCollapse()">Collapse All <span class='icon' /> <i
+        class="fa fa-minimize" aria-hidden="true"></i></span></button>
+    <button class="btn-action btn-show-teams" onclick="showTeams()"> Show Teams <span class='icon' /> <i
+        class="fa fa-users" aria-hidden="true"></i></span></button>
+    <button class="btn-action btn-search" onclick="searchPeople()"> Search People <span class='icon' /> <i
+        class="fa fa-search" aria-hidden="true"></i></span></button>
+    <button class="btn-action btn-search-team" onclick="searchTeam()"> Search Teams <span class='icon' />
+      <i class="fa fa-search" aria-hidden="true"></i></span></button>
+    <button class="btn-action btn-vacant" onclick="showVacancies()"> Show Vacancies <span class='icon' /> <i class="fa fa-chair"
+        aria-hidden="true"></i></span></button>
+    <button class="btn-action btn-refresh" onclick="refresh()"> Refresh <span class='icon' /> <i class="fa fa-refresh"
+            aria-hidden="true"></i></span></button>
+  </div>
+
+
+  <div id="full-container">
+
+    <div class="department-information">
+      <div class="dept-name">
+        dept name
+      </div>
+      <div class="dept-emp-count">
+        dept description test, this is department description
+      </div>
+      <div class="dept-description">
+        dept description test, this is department description
+      </div>
+    </div>
+
+    <div class="user-search-box">
+      <div class="input-box">
+        <div class="close-button-wrapper"><i onclick="closeSearchBox()" class="fa fa-times-circle"
+            aria-hidden="true"></i></div>
+        <div class="input-wrapper">
+          <input type="text" class="search-input" placeholder="Search" />
+          <div class="input-bottom-placeholder" id="searchhint"></div>
+        </div>
+        <div>
+        </div>
+      </div>
+      <div class="result-box">
+        <div class="result-header"> RESULTS </div>
+        <div class="result-list">
+          <div class="buffer"></div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="selector-container" translate="no" zoom="no" style="display:inline">
+      <div class="title_text selected" data-chart="svgChart" id="title_text">Civil Servants</div>
+      <div class="title_text" data-chart="svgChartP" id="title_text_p">Political Team</div>
+    </div>
+    <div id="svgChart" class="svgChart"></div>
+    <div id="svgChartP" class="svgChart" style="display:none"></div>
+    <div id="teamChart" class="svgChart" style="display:none"></div>
+
+
+  </div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js'></script>
+  <script src="assets/scripts/organogram.js"></script>
+
+
+</body>
+
+</html>
